@@ -4,6 +4,8 @@ y_values = [x**2 for x in x_values]
 
 
 plt.scatter(x_values, y_values, c='red', edgecolor='none', s=20)
+#plt.scatter(x_values, y_values, c=cubes, cmap=plt.cm.Reds, s=20)
+
 # Set chart title and label axes.
 plt.title("Square Numbers", fontsize=24)
 plt.xlabel("Value", fontsize=14)
